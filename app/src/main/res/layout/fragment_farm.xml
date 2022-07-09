@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FarmFragment">
+
+    <Button
+        android:id="@+id/button_crops"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_crops"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginVertical="60dp"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_animals"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_animals"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginVertical="40dp"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_crops" />
+
+    <Button
+        android:id="@+id/button_buildings"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_buildings"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginVertical="40dp"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_animals"/>
+
+    <Button
+        android:id="@+id/button_tools"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_tools"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginVertical="40dp"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_buildings"/>
+
+    <Button
+        android:id="@+id/button_sellable_items"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_sellable_items"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginVertical="40dp"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_tools"/>
+
+    <ImageButton
+        android:id="@+id/button_home"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".2"
+        android:background="?android:attr/windowBackground"
+        android:contentDescription="@string/title_home"
+        android:src="@drawable/ic_home_30"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tint="?android:colorButtonNormal" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

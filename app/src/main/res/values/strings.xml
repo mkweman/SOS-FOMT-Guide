@@ -1,3 +1,30 @@
 <resources>
-    <string name="app_name">SOS FOMT Guide</string>
+    <string name="app_name">SOS:FOMT Guide</string>
+    <string name="title_header">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+
+    <!-- Town Store and Characters -->
+    <string name="title_town">Mineral Town</string>
+    <string name="title_characters">Characters</string>
+
+    <!-- Farm Items -->
+    <string name="title_farm">Farm</string>
+
+    <string name="title_crops">Crops</string>
+    <string name="crop_spring">Spring</string>
+    <string name="crop_summer">Summer</string>
+    <string name="crop_fall">Fall</string>
+    <string name="fruit_tree">Fruit Trees</string>
+
+    <string name="title_animals">Animals</string>
+
+    <string name="title_buildings">Buildings</string>
+
+    <string name="title_tools">Tools</string>
+
+    <string name="title_sellable_items">Sellable Items</string>
+
+    <!-- Miscellaneous Items -->
+    <string name="title_calendar">Calendar</string>
 </resources>
