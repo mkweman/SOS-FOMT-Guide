@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">SOS:FOMT Guide</string>
-    <string name="title_header">Home</string>
+    <string name="back_arrow">Go back</string>
+    <string name="title_header" />
     <string name="title_home">Home</string>
     <string name="title_search">Search</string>
 

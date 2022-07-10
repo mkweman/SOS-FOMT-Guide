@@ -6,10 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
-class HomeFragment : Fragment() {
+class SearchFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        (activity as MainActivity).setHeaderText("Search")
     }
 
     override fun onCreateView(
@@ -17,13 +18,14 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
+
+        return inflater.inflate(R.layout.fragment_search, container, false)
     }
 
     companion object {
         @JvmStatic
-        fun newInstance(): HomeFragment {
-            return HomeFragment()
+        fun newInstance(): SearchFragment {
+            return SearchFragment()
         }
     }
 }

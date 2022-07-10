@@ -10,6 +10,7 @@ class FarmFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        (activity as MainActivity).setHeaderText("Farm")
     }
 
     override fun onCreateView(
@@ -17,6 +18,7 @@ class FarmFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
+        
         return inflater.inflate(R.layout.fragment_farm, container, false)
     }
 

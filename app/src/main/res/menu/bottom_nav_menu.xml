@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_farm"
+        android:icon="@drawable/ic_home_24"
+        android:title="@string/title_farm" />
+
+    <item
+        android:id="@+id/navigation_calendar"
+        android:icon="@drawable/ic_calendar_24"
+        android:title="@string/title_calendar" />
+
+    <item
+        android:id="@+id/navigation_characters"
+        android:icon="@drawable/ic_person_24"
+        android:title="@string/title_characters" />
+
+    <item
+        android:id="@+id/navigation_town"
+        android:icon="@drawable/ic_map_24"
+        android:title="@string/title_town" />
+
+</menu>
