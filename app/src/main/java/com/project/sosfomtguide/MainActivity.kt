@@ -37,15 +37,19 @@ class MainActivity : AppCompatActivity(){
                     true
                 }
                 R.id.navigation_calendar -> {
-                    //supportFragmentManager.beginTransaction().replace(R.id.mainFragmentView, CalendarFragment.newInstance()).commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.mainFragmentView, CalendarFragment.newInstance()).commit()
                     true
                 }
                 R.id.navigation_characters -> {
-                    //supportFragmentManager.beginTransaction().replace(R.id.mainFragmentView, CharactersFragment.newInstance()).commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.mainFragmentView, CharactersFragment.newInstance()).commit()
                     true
                 }
                 R.id.navigation_town -> {
                     //supportFragmentManager.beginTransaction().replace(R.id.mainFragmentView, TownFragment.newInstance()).commit()
+                    true
+                }
+                R.id.navigation_others -> {
+                    //supportFragmentManager.beginTransaction().replace(R.id.mainFragmentView, OtherMenuFragment.newInstance()).commit()
                     true
                 }
                 else -> false

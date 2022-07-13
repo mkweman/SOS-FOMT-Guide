@@ -7,15 +7,17 @@
 
     <!-- Town Store and Characters -->
     <string name="title_town">Mineral Town</string>
+
     <string name="title_characters">Characters</string>
+    <string name="characters_bachelorettes">Bachelorettes</string>
+    <string name="characters_bachelors">Bachelors</string>
+    <string name="characters_villagers">Villagers</string>
+
 
     <!-- Farm Items -->
     <string name="title_farm">Farm</string>
 
     <string name="title_crops">Crops</string>
-    <string name="crop_spring">Spring</string>
-    <string name="crop_summer">Summer</string>
-    <string name="crop_fall">Fall</string>
     <string name="fruit_tree">Fruit Trees</string>
 
     <string name="title_animals">Animals</string>
@@ -26,6 +28,13 @@
 
     <string name="title_sellable_items">Sellable Items</string>
 
-    <!-- Miscellaneous Items -->
+    <!-- Seasons -->
+    <string name="season_spring">Spring</string>
+    <string name="season_summer">Summer</string>
+    <string name="season_fall">Fall</string>
+    <string name="season_winter">Winter</string>
+
+    <!-- Miscellaneous -->
     <string name="title_calendar">Calendar</string>
+    <string name="title_others">Others</string>
 </resources>

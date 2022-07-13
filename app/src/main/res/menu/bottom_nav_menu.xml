@@ -21,4 +21,9 @@
         android:icon="@drawable/ic_map_24"
         android:title="@string/title_town" />
 
+    <item
+        android:id="@+id/navigation_others"
+        android:icon="@drawable/ic_more_horiz_24"
+        android:title="@string/title_others" />
+
 </menu>
