@@ -1,16 +1,18 @@
-package com.project.sosfomtguide
+package com.project.sosfomtguide.farm
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.project.sosfomtguide.MainActivity
+import com.project.sosfomtguide.R
 
-class CalendarFragment : Fragment() {
+class FarmFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        (activity as MainActivity).setHeaderText("Calendar")
+        (activity as MainActivity).setHeaderText("Farm")
     }
 
     override fun onCreateView(
@@ -18,13 +20,13 @@ class CalendarFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_calendar, container, false)
+        return inflater.inflate(R.layout.fragment_farm, container, false)
     }
 
     companion object {
         @JvmStatic
-        fun newInstance(): CalendarFragment {
-            return CalendarFragment()
+        fun newInstance(): FarmFragment {
+            return FarmFragment()
         }
     }
 }

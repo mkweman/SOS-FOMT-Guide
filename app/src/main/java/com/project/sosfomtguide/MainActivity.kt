@@ -6,6 +6,9 @@ import android.widget.ImageButton
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.project.sosfomtguide.calendar.CalendarFragment
+import com.project.sosfomtguide.characters.CharactersFragment
+import com.project.sosfomtguide.farm.FarmFragment
 
 class MainActivity : AppCompatActivity(){
 
