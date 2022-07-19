@@ -37,4 +37,5 @@
     <!-- Miscellaneous -->
     <string name="title_calendar">Calendar</string>
     <string name="title_others">Others</string>
+    <string name="map_description">Map of Mineral Town</string>
 </resources>
